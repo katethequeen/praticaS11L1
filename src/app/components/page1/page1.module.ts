@@ -4,14 +4,8 @@ import { CommonModule } from '@angular/common';
 import { Page1RoutingModule } from './page1-routing.module';
 import { Page1Component } from './page1.component';
 
-
 @NgModule({
-  declarations: [
-    Page1Component
-  ],
-  imports: [
-    CommonModule,
-    Page1RoutingModule
-  ]
+  declarations: [Page1Component],
+  imports: [CommonModule, Page1RoutingModule],
 })
-export class Page1Module { }
+export class Page1Module {}
